@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Stock
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Stock\ here.\r\n\r\n\ @author\ Kemar\ Golding\ and\ Erik\ Zagarello\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Stock()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Stock\r\n
+comment2.params=newPreviousClosingPrice
+comment2.target=void\ setPreviousClosingPrice(double)
+comment2.text=\r\n\ Mutator\ method\ that\ updates\ the\ "previousClosingPrice"\ variable\r\n
+comment3.params=newCurrentPrice
+comment3.target=void\ setCurrentPrice(double)
+comment3.text=\r\n\ Mutator\ method\ that\ updates\ the\ "currentPrice"\ variable\r\n
+comment4.params=
+comment4.target=double\ getChangePercent()
+comment4.text=\r\n\ Accessor\ method\ that\ calculates\ the\ percentage\ of\ change\ between\ the\ previousClosingPrice\ and\ currentPrice\r\n
+numComments=5

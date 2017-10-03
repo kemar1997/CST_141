@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Faculty
+comment0.text=\ Faculty\ class\ definition\ maintains\ and\ returns\ department\ information.\n\n\ \ @author\ Carl\ B.\ Struck\n\ \ @version\ Copyright\ (c)\ 2003\n
+comment1.params=firstName\ lastName\ employeeID\ department
+comment1.target=Faculty(java.lang.String,\ java.lang.String,\ int,\ java.lang.String)
+comment1.text=\ The\ constructor\ sets\ initial\ value\ for\ the\ department\ field.\n\ \ Explicit\ call\ to\ superclass\ Employee\ sets\ initial\ values\ for\n\ \ fields\ firstName,\ lastName\ and\ employeeID.\ \ Instantiates\ and\n\ \ adds\ departments\ to\ the\ 'departmentList'\ ArrayList.\n\n\ \ @param\ firstName\ Faculty\ member's\ first\ name\ from\ indirect\ superclass\ CommunityMember\n\ \ @param\ lastName\ Faculty\ member's\ last\ name\ from\ indirect\ superclass\ CommunityMember\n\ \ @param\ annualSalary\ Faculty\ member's\ ID\ number\ from\ superclass\ Employee\n\ \ @param\ department\ Department\ in\ which\ faculty\ member\ works\n
+comment2.params=department
+comment2.target=void\ setDepartment(java.lang.String)
+comment2.text=\ Sets\ the\ value\ for\ the\ department\ field\ which\ must\ be\ a\ String\n\ \ contained\ in\ 'departmentList'\ ArrayList.\ \ Valid\ departments\ are\n\ \ "CENTRAL",\ "COMPUTER",\ "ENGLISH",\ "MATH",\ and\ "SCIENCE".\ \ An\n\ \ empty\ String\ value\ indicates\ that\ the\ department\ field\ is\ empty.\n\n\ \ @param\ department\ Faculty\ member's\ department\n
+comment3.params=
+comment3.target=java.lang.String\ getDepartment()
+comment3.text=\ Returns\ current\ value\ of\ the\ department\ field.\n\n\ \ @return\ Department\ of\ faculty\ member\ as\ type\ String\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\ Returns\ formatted\ department\ field\ including\ text\ labels.\n\ \ Preceded\ by\ firstName,\ lastName\ and\ employeeID\ fields\ from\ call\n\ \ to\ toString()\ method\ of\ superclass\ Employee.\n\n\ \ @return\ Formatted\ department\ field\ as\ type\ String\n
+numComments=5

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Timer()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Timer\ -\ no\ actions\ required\r\n
+comment1.params=
+comment1.target=void\ resetTime()
+comment1.text=\r\n\ Update\ Date\ object\ and\ display\ number\ of\ seconds\ since\ time\ was\ reset.\r\n
+numComments=2

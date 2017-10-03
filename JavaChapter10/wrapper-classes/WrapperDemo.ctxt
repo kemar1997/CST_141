@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=WrapperDemo()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ WrapperDemo\r\n
+comment1.params=
+comment1.target=void\ printWrapperMinValueAndMaxValueConstants()
+comment1.text=\r\n\ Demonstrate\ the\ wrapper\ class\ MIN_VALUE\ and\ MAX_VALUE\ constants\r\n
+comment2.params=
+comment2.target=void\ printWrapperTypeAndSizeConstants()
+comment2.text=\r\n\ Demonstrate\ the\ wrapper\ class\ TYPE\ and\ SIZE\ constants\r\n
+comment3.params=
+comment3.target=void\ printWrapperConversionMethods()
+comment3.text=\r\n\ Demonstrate\ some\ wrapper\ conversion\ methods\r\n
+comment4.params=
+comment4.target=void\ printCompareToMethods()
+comment4.text=\r\n\ Demonstate\ the\ wrapper\ compareTo()\ methods\r\n
+comment5.params=integerValue\ floatValue
+comment5.target=void\ printValueOfMethods(java.lang.String,\ java.lang.String)
+comment5.text=\r\n\ Demonstate\ some\ wrapper\ parse\ methods\r\n
+numComments=6

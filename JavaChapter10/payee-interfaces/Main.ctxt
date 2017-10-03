@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\n\ Driver\ for\ the\ Payee\ class.\n\ \n\ @author\ Prof.\ Carl\ B.\ Struck\n\ @version\ CST141\ Fall\ 2013\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Instantiate\ and\ test\ two\ Payee\ objects\n
+numComments=2

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Multiplier()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Multiplier\r\n\ initializes\ object\ x\ as\ 0\r\n\ initializes\ object\ y\ as\ 0\r\n
+comment1.params=newX
+comment1.target=void\ setX(double)
+comment1.text=\r\n\ setX\:\ Takes\ a\ single\ parameter\ (newX),\ assigns\ newX\ as\ the\ value\ of\ x\r\n\ \r\n
+comment2.params=newY
+comment2.target=void\ setY(double)
+comment2.text=\r\n\ setY\:\ Takes\ a\ single\ parameter\ (newY),\ assigns\ newY\ as\ the\ value\ of\ y\r\n
+comment3.params=
+comment3.target=double\ getProduct()
+comment3.text=\r\n\ Getter\ method\ for\ returning\ product\ of\ x\ and\ y\r\n
+numComments=4

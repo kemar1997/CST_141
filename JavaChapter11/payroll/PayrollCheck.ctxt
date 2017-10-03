@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PayrollCheck()
+comment0.text=\ No\ argument\ constructor\ sets\ fields\ checkNumber\ and\ employeeID\ to\ \r\n\ \ default\ values\ zero\ (0).\r\n
+comment1.params=checkNumber\ employeeID
+comment1.target=PayrollCheck(int,\ int)
+comment1.text=\ The\ constructor\ sets\ initial\ values\ for\ the\ checkNumber\ and\ \r\n\ \ employeeID\ fields.\r\n\ \ \r\n\ \ @param\ checkNumber\ Number\ of\ payroll\ check.\r\n\ \ @param\ employeeID\ Employee's\ identification\ number.\r\n
+comment2.params=checkNumber
+comment2.target=void\ setCheckNumber(int)
+comment2.text=\ Sets\ the\ value\ for\ the\ checkNumber\ field\ which\ must\ be\ between\ 1\ and\ \r\n\ \ 9999.\ \ A\ value\ of\ zero\ (0)\ indicates\ that\ checkNumber\ field\ is\ empty.\r\n\ \ \r\n\ \ @param\ checkNumber\ Number\ of\ payroll\ check.\r\n
+comment3.params=employeeID
+comment3.target=void\ setEmployeeID(int)
+comment3.text=\ Sets\ the\ value\ for\ the\ employeeID\ field\ which\ must\ be\ between\ 10001\ and\ \r\n\ \ 99999.\ \ A\ value\ of\ zero\ (0)\ indicates\ that\ employeeID\ field\ is\ empty.\r\n\ \ \r\n\ \ @param\ employeeID\ Employee's\ identification\ number.\r\n
+comment4.params=
+comment4.target=int\ getCheckNumber()
+comment4.text=\ Returns\ current\ value\ of\ the\ checkNumber\ field.\r\n\ \r\n\ \ @return\ Number\ of\ payroll\ check.\r\n
+comment5.params=
+comment5.target=int\ getEmployeeID()
+comment5.text=\ Returns\ current\ value\ of\ the\ employeeID\ field.\r\n\ \r\n\ \ @return\ Employee's\ identification\ number.\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\ Returns\ formatted\ checkNumber\ and\ employeeID\ fields\ including\ text\ \r\n\ \ labels.\r\n\ \ \r\n\ \ @return\ Formatted\ check\ number\ and\ employee\ ID\ number\ fields\ as\ type\ String.\r\n
+numComments=7

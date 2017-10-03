@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Payee()
+comment0.text=\r\n\ No\ parameter\ constructor\ for\ objects\ of\ class\ Payee\r\n
+comment1.params=hoursWroked\ payRate
+comment1.target=Payee(double,\ double)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Payee\r\n
+comment2.params=hoursWorked
+comment2.target=void\ setHoursWorked(double)
+comment2.text=\r\n\ Mutator\ method\ for\ hoursWorked.\r\n\ Validate\ that\ hoursWorked\ is\ between\ 0.25\ and\ 60.0.\r\n
+comment3.params=payRate
+comment3.target=void\ setPayRate(double)
+comment3.text=\r\n\ Mutator\ method\ for\ payRate.\r\n\ Validate\ that\ payRate\ is\ between\ 7.50\ and\ 75.00.\r\n
+comment4.params=
+comment4.target=double\ getHoursWorked()
+comment4.text=\r\n\ Accessor\ method\ for\ hoursWorked\r\n
+comment5.params=
+comment5.target=double\ getPayRate()
+comment5.text=\r\n\ Accessor\ method\ for\ payRate\r\n
+comment6.params=
+comment6.target=double\ getGrossPay()
+comment6.text=\r\n\ Calculates\ and\ returns\ gross\ pay.\r\n\ If\ hours\ worked\ is\ greater\ than\ 40,\ calculates\ overtime\ pay.\r\n
+comment7.params=
+comment7.target=void\ printPayee()
+comment7.text=\r\n\ Print\ method\ for\ Payee\ state\r\n
+numComments=8

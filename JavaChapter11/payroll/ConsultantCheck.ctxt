@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ConsultantCheck()
+comment0.text=\r\n\ No\ parameter\ constructor\ that\ sets\ checkNumber,\ employeeID\ and\ payment\ amount\r\n\ to\ 0.\r\n
+comment1.params=checkNumber\ employeeID\ payment
+comment1.target=ConsultantCheck(int,\ int,\ double)
+comment1.text=\r\n\ Constructor\ that\ sets\ check\ number,\ employee\ ID\ and\ payment\ to\ the\ values\ \r\n\ of\ the\ parameters\r\n\ \r\n\ @param\ checkNumber\ Number\ of\ payroll\ check.\r\n\ @param\ employeeID\ Employee's\ identification\ number.\r\n\ @param\ payment\ The\ amount\ of\ the\ one-time\ consultant\ payment.\r\n\ \r\n
+comment2.params=payment
+comment2.target=void\ setPayment(double)
+comment2.text=\r\n\ Updates\ the\ amount\ of\ the\ one-time\ payment\ whichh\ must\ be\ zero\ or\ greater\r\n\ \r\n\ @param\ payment\ Amount\ of\ the\ one-time\ payment\r\n
+comment3.params=
+comment3.target=double\ getPayment()
+comment3.text=\r\n\ Returns\ the\ amount\ of\ the\ one-time\ payment\r\n\ \r\n\ @return\ the\ one\ time\ payment\ amount\r\n
+comment4.params=
+comment4.target=double\ getGrossPay()
+comment4.text=\r\n\ Returns\ the\ gross\ pay\ of\ the\ one-time\ payment\r\n\ \r\n\ @return\ gross\ pay\ amount\ of\ one-time\ payment\ check\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Returns\ a\ string\ representation\ of\ a\ consultant\ check\ object\ with\r\n\ checkNumber,\ employeeID\ and\ amount\ of\ one-time\ payment.\r\n\ \r\n\ @return\ Check\ number,\ employeeID\ and\ one\ time\ payment\ amoount\r\n
+numComments=6

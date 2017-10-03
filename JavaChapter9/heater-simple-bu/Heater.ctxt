@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Heater()
+comment0.text=\r\n\ Constructor\ for\ Heater\ class\ initializes\ temperature\ field.\r\n
+comment1.params=
+comment1.target=void\ warmer()
+comment1.text=\r\n\ Mutator\ method\ that\ increases\ temperature\ by\ 5\ degrees.\r\n
+comment2.params=
+comment2.target=void\ cooler()
+comment2.text=\r\n\ Mutator\ method\ that\ decreases\ temperature\ by\ 5\ degrees.\r\n
+comment3.params=
+comment3.target=int\ getTemperature()
+comment3.text=\r\n\ Accessor\ method\ that\ returns\ current\ value\ of\ temperature\ field.\r\n
+numComments=4

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=initMin\ initMax
+comment0.target=Heater(int,\ int)
+comment0.text=\r\n\ Constructor\ method\ initializes\ temperature\ and\ increment\ fields\ as\ \r\n\ constant\ values;\ takes\ two\ int\ parameters\ to\ initialize\ the\ min\ and\ max\ \r\n\ data\ fields.\r\n
+comment1.params=
+comment1.target=void\ warmer()
+comment1.text=\r\n\ Mutator\ method\ that\ increases\ temperature\ by\ 5\ degrees.\r\n\ If\ new\ temperature\ value\ is\ greater\ than\ the\ max,\ set\ temperature\ \r\n\ back\ to\ max.\r\n
+comment2.params=
+comment2.target=void\ cooler()
+comment2.text=\r\n\ Mutator\ method\ that\ decreases\ temperature\ by\ 5\ degrees.\r\n\ If\ new\ temperature\ value\ is\ less\ than\ the\ min,\ set\ temperature\ \r\n\ back\ to\ min.\r\n
+comment3.params=newIncrement
+comment3.target=void\ setIncrement(int)
+comment3.text=\r\n\ Mutator\ method\ that\ updates\ value\ of\ increment\ instance\ variable.\r\n\ If\ new\ increment\ value\ is\ negative\ or\ zero,\ do\ not\ update.\r\n
+comment4.params=
+comment4.target=int\ getTemperature()
+comment4.text=\r\n\ Accessor\ method\ that\ returns\ current\ value\ of\ temperature\ \r\n\ instance\ variable.\r\n
+numComments=5

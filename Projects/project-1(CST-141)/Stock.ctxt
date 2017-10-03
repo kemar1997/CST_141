@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Stock
+comment0.text=\r\n\ Stock\ class\ assigns\ name\ &\ symbol\ of\ a\ company,\ then\ compares\ a\ manually-entered\ closing\ price\ of\ stock\ with\ the\ manually-entered\r\n\ current\ price.\ Returns\ percent\ change\ between\ the\ two\ values\r\n\ @author\ Erik\ Zagarello\ &\ Kemar\ Golding\r\n\ @version\ 9/18/2017\r\n
+comment1.params=
+comment1.target=Stock()
+comment1.text=\r\n\ constructor\ for\ class\ Stock\r\n
+comment2.params=newPreviousClosingPrice
+comment2.target=void\ setPreviousClosingPrice(double)
+comment2.text=\r\n\ Mutator\ method\ that\ updates\ the\ "previousClosingPrice"\ variable\r\n
+comment3.params=newCurrentPrice
+comment3.target=void\ setCurrentPrice(double)
+comment3.text=\r\n\ Mutator\ method\ that\ updates\ the\ "currentPrice"\ variable\r\n
+comment4.params=
+comment4.target=double\ getChangePercent()
+comment4.text=\r\n\ Accessor\ method\ that\ calculates\ the\ percentage\ of\ change\ between\ the\ previousClosingPrice\ and\ currentPrice\r\n
+numComments=5

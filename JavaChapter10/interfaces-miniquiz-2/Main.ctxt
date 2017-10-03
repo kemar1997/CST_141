@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\n\ Instantiate\ a\ Book\ object,\ get\ values\ for\ it,\ and\ display\ the\ book.\ \n\n\ @author\ Kemar\n\ @version\ 9/25/2017\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Create\ and\ display\ the\ Book\ object.\n
+numComments=2

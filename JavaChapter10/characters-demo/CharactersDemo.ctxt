@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CharactersDemo()
+comment0.text=\r\n\ Constructor\ for\ class\ CharactersDemo.\r\n
+comment1.params=
+comment1.target=void\ classCharacterMethods()
+comment1.text=\r\n\ Testing\ the\ 'Character'\ class\ methods.\r\n\ Parameter\ 's1'\ is\ the\ String\ used\ for\ processing.\r\n\ Parameter\ 'stringPosition'\ indicates\ the\ location\ in\ the\ String\ \r\n\ parameter\ from\ which\ a\ character\ will\ be\ extracted.\r\n
+numComments=2

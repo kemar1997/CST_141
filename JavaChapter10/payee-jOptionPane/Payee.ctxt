@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Payee()
+comment0.text=\r\n\ No\ parameter\ constructor\ for\ objects\ of\ class\ Payee.\ \ Initializes\ the\r\n\ hours\ worked\ and\ pay\ rate\ data\ fields\ to\ default\ values\ of\ zero\ (0).\r\n
+comment1.params=hoursWorked\ payRate
+comment1.target=Payee(double,\ double)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Payee\ with\ parameters\ that\ initialize\r\n\ the\ hours\ worked\ and\ pay\ rate\ data\ fields.\r\n\r\n\ @param\ hoursWorked\ the\ employee\ number\ of\ hours\ worked\r\n\ @param\ payRate\ the\ employee\ hourly\ rate\ of\ pay\r\n
+comment2.params=hoursWorked
+comment2.target=void\ setHoursWorked(double)
+comment2.text=\r\n\ Mutator\ method\ for\ the\ hours\ worked\ data\ field.\r\n\ Validates\ that\ hours\ worked\ is\ between\ 0.25\ and\ 60.0.\r\n\r\n\ @param\ hoursWorked\ the\ employee\ number\ of\ hours\ worked\r\n
+comment3.params=payRate
+comment3.target=void\ setPayRate(double)
+comment3.text=\r\n\ Mutator\ method\ for\ the\ pay\ rate\ data\ field.\r\n\ Validates\ that\ pay\ rate\ is\ between\ 7.50\ and\ 75.00.\r\n\r\n\ @param\ payRate\ the\ employee\ hourly\ rate\ of\ pay\r\n
+comment4.params=
+comment4.target=double\ getHoursWorked()
+comment4.text=\r\n\ Accessor\ method\ for\ the\ hours\ worked\ data\ field.\r\n\r\n\ @return\ Employee\ number\ of\ hours\ worked\ as\ a\ double\r\n
+comment5.params=
+comment5.target=double\ getPayRate()
+comment5.text=\r\n\ Accessor\ method\ for\ the\ pay\ rate\ data\ field.\r\n\r\n\ @return\ Employee\ hourly\ rate\ of\ pay\ as\ a\ double\r\n
+comment6.params=
+comment6.target=double\ getGrossPay()
+comment6.text=\r\n\ Calculates\ and\ returns\ employee\ gross\ pay.\r\n\ If\ hours\ worked\ is\ greater\ than\ 40,\ calculates\ overtime\ pay.\r\n\r\n\ @return\ Employee\ gross\ pay\ as\ a\ double\r\n
+comment7.params=
+comment7.target=void\ printPayee()
+comment7.text=\r\n\ Print\ method\ for\ Payee\ state.\r\n
+numComments=8
