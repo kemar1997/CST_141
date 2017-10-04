@@ -14,8 +14,8 @@ public class PayrollCheck extends Object
     private int checkNumber;
     
     // protected means it is accessible to classes only inside of a package/folder
-    protected 	DecimalFormat twoDecimals = new DecimalFormat("#,##0.00");
-	protected DecimalFormat dollarsCents = new DecimalFormat("$#,##0.00");
+    protected DecimalFormat twoDecimals = new DecimalFormat("#,##0.00");
+    protected DecimalFormat dollarsCents = new DecimalFormat("$#,##0.00");
 
     /** No argument constructor sets fields checkNumber and employeeID to 
      *  default values zero (0).
@@ -91,7 +91,7 @@ public class PayrollCheck extends Object
     {
         return super.toString()
              + "\nCheck number: \t" + getCheckNumber()
-        	 + "\nEmployee ID: \t" + getEmployeeID();
+             + "\nEmployee ID: \t" + getEmployeeID();
     }
 }
 
