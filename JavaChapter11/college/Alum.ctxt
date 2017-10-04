@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Alum
+comment0.text=\n\ The\ classs\ Alum\ manages\ the\ graduation\ year\ and\ the\ degree\ granted.\n\n\ @author\ Kemar\ Golding\n\ @version\ 10/4/2017\n
+comment1.params=firstName\ lastName\ gradYear\ degree
+comment1.target=Alum(java.lang.String,\ java.lang.String,\ int,\ java.lang.String)
+comment1.text=\n\ Constructor\ initializes\ values\ of\ firstName,\ lastName,\ gradYear,\ and\ degree\ granted\ to\ the\ values\ of\ the\ parameters.\n\ Adds\ the\ five\ valid\ degrees\ to\ the\ ArrayList.\n\ \n\ @param\ firstName\ CommunityMembers\ first\ name\n\ @param\ firstName\ CommunityMembers\ last\ name\n\ @param\ gradYear\ The\ Alum's\ graduation\ year\n\ @param\ degree\ The\ degree\ granted\ to\ the\ Alum\n
+comment2.params=gradYear
+comment2.target=void\ setGradYear(int)
+comment2.text=\n\ Update\ the\ graduation\ year.\n\ \n\ @param\ gradYear\ The\ Alum's\ graduation\ year\n
+comment3.params=degree
+comment3.target=void\ setDegree(java.lang.String)
+comment3.text=\n\ Update\ the\ degree\ granted\ which\ must\ be\ a\ string\ from\ the\ ArrayList.\n\ \n\ @param\ degree\ The\ degree\ granted\ to\ the\ Alum\n
+comment4.params=
+comment4.target=int\ getGradYear()
+comment4.text=\n\ Returns\ the\ graduation\ year\n\ \n\ @return\ Graduation\ year\n
+comment5.params=
+comment5.target=java.lang.String\ getDegree()
+comment5.text=\n\ Returns\ the\ degree\ granted\ to\ an\ Alum\n\ \n\ @return\ Degree\ granted\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ A\ String\ representation\ of\ gradYear\ and\ the\ degree\ granted\ to\ the\ Alum\ alongside\ the\ CommunityMember's\ full\ name\ from\ its\n\ superclass.\n\ \n\ @return\ A\ string\ representing\ the\ first\ name\ and\ the\ last\ name\ of\ the\ Alum\ and\ alongside\ the\ gradYear\ and\ the\ degree\ granted\n
+numComments=7
