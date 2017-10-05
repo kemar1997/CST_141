@@ -6,7 +6,7 @@
  * @version 10/2/17
  */
 public class Student extends CommunityMember {
-    // instance variables - replace the example below with your own
+    // instance variables - variables for the student identification number and the students GPA
     private int studentID;
     private double gradePointAvg;
 
