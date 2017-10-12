@@ -1,9 +1,10 @@
 
 /**
- * Write a description of class Student here.
+ * A subclass to CommunityMember and a superclass to Undergraduate that contains the community members first name and last name. 
+ * And also their student identification number and grade point average. 
  *
- * @author Kemar Golding
- * @version 10/2/17
+ * @author Kemar Golding & Erik Zagarello & Peter Kaligeris
+ * @version 10/11/17
  */
 public class Student extends CommunityMember {
     // instance variables - variables for the student identification number and the students GPA
@@ -17,6 +18,16 @@ public class Student extends CommunityMember {
         // initialise nstance variables
         this("", "", 0, 0.0);
     }
+    
+    /**
+     * A constructor that sets the firstName and lastName using the super keyword and passing the studentID and gradePointAvg variables into their
+     * appropriate set methods.
+     * 
+     *  @param firstName Member's first name.
+     *  @param lastName Member's last name.
+     *  @param studentID Student's ID number.
+     *  @param gradePointAvg Student's grade point average.
+     */
     
     public Student(String firstName, String lastName, int studentID, double gradePointAvg) {
         super(firstName, lastName);

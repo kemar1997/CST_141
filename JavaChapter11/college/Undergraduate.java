@@ -2,7 +2,7 @@
 /**
  * Write a description of class Undergraduate here.
  *
- * @author Kemar Golding
+ * @author Kemar Golding & Erik Zagarello & Peter Kaligeris
  * @version 10/11/17
  */
 public class Undergraduate extends Student {
