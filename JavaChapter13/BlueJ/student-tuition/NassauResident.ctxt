@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=NassauResident()
+comment0.text=\ \r\n\ Constructor\ sets\ default\ values\ for\ student\ first\ name,\ last\ name,\r\n\ grade\ and\ credits\ fields.\r\n
+comment1.params=firstName\ lastName\ grade\ credits
+comment1.target=NassauResident(java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment1.text=\ \r\n\ Explicit\ call\ to\ superclass\ Student\ constructor\ sets\ initial\ values\ \r\n\ for\ the\ student\ first\ name,\ last\ name,\ grade\ and\ credits\ fields.\r\n\ \r\n\ @param\ firstName\ the\ student's\ first\ name\r\n\ @param\ lastName\ the\ student's\ last\ name\r\n\ @param\ grade\ the\ student's\ letter\ grade\r\n\ @param\ credits\ the\ number\ of\ credits\ carried\ by\ the\ student\r\n
+comment2.params=
+comment2.target=int\ getTuition()
+comment2.text=\ \r\n\ Returns\ the\ semester\ tuition\ for\ a\ student\ as\ an\ int\ based\ on\ number\ \r\n\ of\ credits.\ \ If\ credits\ from\ superclass\ Student\ are\ less\ than\ 12,\ \r\n\ multiply\ credits\ by\ the\ part-time\ tuition\ rate;\ otherwise\ tuition\ \r\n\ is\ set\ to\ the\ flat\ full-time\ rate.\ \ This\ method\ must\ be\ implemented\ \r\n\ because\ the\ SuffolkResident\ implements\ the\ Tuition\ interface\ which\ \r\n\ defines\ the\ abstract\ getTuition()\ method.\r\n\ \r\n\ @return\ The\ student's\ tuition\r\n
+comment3.params=
+comment3.target=int\ getNassauTuition()
+comment3.text=\ \r\n\ Returns\ the\ tuition\ which\ must\ be\ paid\ by\ Nassau\ County\ as\ \r\n\ an\ int\ value.\r\n\ \r\n\ @return\ Student's\ Nassau\ tuition\r\n
+comment4.params=
+comment4.target=java.lang.String\ getTuitionString()
+comment4.text=\ \r\n\ Returns\ the\ formatted\ semester\ tuition\ and\ Nassau\ tuition\ fields\ \r\n\ with\ labels\ as\ a\ string.\ \ This\ method\ must\ be\ implemented\ because\ \r\n\ class\ NassauResident\ extends\ the\ Student\ class\ which\ defines\ abstract\r\n\ getTuitionString()\ method.\r\n\ \r\n\ @return\ Formatted\ semester\ tuition\ and\ Nassau\ tuition\ values\ \r\n\ \ \ \ \ \ \ \ \ with\ labels\ as\ a\ string\r\n
+numComments=5

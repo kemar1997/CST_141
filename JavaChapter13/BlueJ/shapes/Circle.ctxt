@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Circle()
+comment0.text=\r\n\ Constructor\ passes\ default\ values\ to\ Circle(int,\ int)\ constructor.\r\n
+comment1.params=point\ radius
+comment1.target=Circle(int,\ int)
+comment1.text=\r\n\ Constructor\ sets\ radius\ of\ the\ circle\ and\ passes\ the\ point\ where\ it\r\n\ will\ draw\ to\ the\ Shape\ superclass\ constructor.\r\n\ \r\n\ @param\ point\ the\ point\ where\ the\ shape\ draws\r\n\ @param\ radius\ the\ radius\ of\ the\ circle\r\n
+comment2.params=radius
+comment2.target=void\ setRadius(int)
+comment2.text=\r\n\ Sets\ the\ radius\ of\ the\ circle\ which\ must\ be\ greater\ than\ zero\ (0)\ \r\n\ or\ equal\ to\ zero\ if\ null\ (default).\r\n\ \r\n\ @param\ radius\ the\ radius\ of\ the\ circle\r\n
+comment3.params=
+comment3.target=int\ getRadius()
+comment3.text=\r\n\ Returns\ the\ radius\ of\ the\ circle.\r\n\ \r\n\ @return\ the\ radius\ of\ the\ circle.\r\n
+comment4.params=
+comment4.target=void\ draw()
+comment4.text=\r\n\ Prints\ the\ radius\ of\ the\ circle\ to\ the\ terminal\ window.\r\n
+numComments=5

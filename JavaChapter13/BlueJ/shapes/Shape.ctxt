@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=point
+comment0.target=Shape(int)
+comment0.text=\r\n\ Constructor\ sets\ point\ where\ the\ shape\ draws.\r\n\ \r\n\ @param\ point\ the\ point\ where\ the\ shape\ draws\r\n
+comment1.params=point
+comment1.target=void\ setPoint(int)
+comment1.text=\r\n\ Sets\ the\ point\ where\ the\ shape\ draws.\r\n\ \r\n\ @param\ point\ the\ point\ where\ the\ shape\ draws\r\n
+comment2.params=
+comment2.target=int\ getPoint()
+comment2.text=\r\n\ Returns\ the\ point\ where\ the\ shape\ draws.\r\n\ \r\n\ @return\ The\ point\ where\ the\ shape\ draws\r\n
+comment3.params=
+comment3.target=void\ printIt()
+comment3.text=\r\n\ Prints\ the\ statistics\ of\ a\ shape\ to\ the\ terminal\ window.\ \ Calls\ \r\n\ this\ class's\ method\ position()\ to\ print\ the\ position\ of\ the\ shape.\r\n\ Calls\ a\ subclass\ method\ draw()\ to\ print\ the\ dimensions\ of\ a\ shape\ \r\n\ subclass\ object\ to\ the\ terminal\ window\ (demonstrates\ 'late\ binding').\r\n
+comment4.params=
+comment4.target=void\ position()
+comment4.text=\r\n\ Prints\ the\ position\ of\ the\ shape\ to\ the\ terminal\ window.\r\n
+comment5.params=
+comment5.target=void\ draw()
+comment5.text=\r\n\ Abstract\ method\ definition\ to\ print\ dimension(s)\ of\ a\ shape\ subclass\r\n\ object\ to\ the\ terminal\ window.\r\n
+numComments=6

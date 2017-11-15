@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ValidState()
+comment0.text=\ \r\n\ The\ constructor\ sets\ default\ value\ for\ the\ state\ abbreviation.\r\n
+comment1.params=state
+comment1.target=ValidState(java.lang.String)
+comment1.text=\ \r\n\ The\ constructor\ sets\ initial\ value\ for\ the\ state\ abbreviation.\r\n\ \r\n\ @param\ state\ the\ state\ abbreviation\r\n
+comment2.params=state
+comment2.target=void\ setState(java.lang.String)
+comment2.text=\ \r\n\ Sets\ value\ for\ state\ abbreviation\ field\ which\ must\ be\ from\ the\ list\ \r\n\ of\ 50\ valid\ state\ abbreviations\ or\ the\ District\ of\ Columbia\ (DC).\r\n\ \r\n\ @param\ state\ the\ state\ abbreviation\r\n
+comment3.params=
+comment3.target=java.lang.String\ getState()
+comment3.text=\ \r\n\ Returns\ the\ state\ abbreviation\ field\ as\ a\ String\r\n\ \r\n\ @return\ state\ abbreviation\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\ \r\n\ Returns\ a\ String\ representation\ of\ the\ ValidState\ class\ which\ is\ the\ \r\n\ formatted\ state\ abbreviation\ field\ with\ a\ preceding\ label.\r\n\ \ \r\n\ @return\ formatted\ first\ name,\ last\ name,\ grade\ and\ credits\ fields\ \r\n\ \ \ \ \ \ \ \ \ with\ labels\ as\ a\ String.\r\n
+numComments=5

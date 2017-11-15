@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=NonResident()
+comment0.text=\ \r\n\ Constructor\ sets\ default\ values\ for\ student\ first\ name,\ last\ name,\r\n\ grade,\ credits,\ county\ and\ state\ fields.\r\n
+comment1.params=firstName\ lastName\ grade\ credits\ county\ state
+comment1.target=NonResident(java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ java.lang.String)
+comment1.text=\ \r\n\ The\ constructor\ sets\ initial\ values\ for\ the\ student\ tuition\ and\ county\r\n\ fields,\ and\ instantiates\ object\ from\ class\ State\ to\ store\ the\ state.\r\n\ Explicit\ call\ to\ superclass\ Student\ constructor\ sets\ initial\ values\ \r\n\ for\ the\ student\ first\ name,\ last\ name,\ grade\ and\ credits\ fields.\r\n\ \r\n\ @param\ firstName\ the\ student's\ first\ name\r\n\ @param\ lastName\ the\ student's\ last\ name\r\n\ @param\ grade\ the\ student's\ letter\ grade\r\n\ @param\ credits\ the\ number\ of\ credits\ carried\ by\ the\ student\r\n\ @param\ county\ the\ student's\ county\ of\ residence\r\n\ @param\ state\ the\ student's\ state\ location\r\n
+comment2.params=county
+comment2.target=void\ setCounty(java.lang.String)
+comment2.text=\ \r\n\ Sets\ value\ for\ student\ county\ of\ residence\ field.\r\n\ \r\n\ @param\ county\ the\ student's\ county\ of\ residence\r\n
+comment3.params=state
+comment3.target=void\ setState(java.lang.String)
+comment3.text=\ \r\n\ Passes\ the\ state\ location\ parameter\ to\ the\ setState(String)\ method\r\n\ of\ the\ state\ object\ field\ for\ validation.\r\n\ \r\n\ @param\ state\ the\ student's\ state\ location\r\n
+comment4.params=
+comment4.target=int\ getTuition()
+comment4.text=\ \r\n\ Returns\ the\ semester\ tuition\ for\ a\ student\ as\ an\ int\ based\ on\ number\ \r\n\ of\ credits.\ \ If\ credits\ from\ superclass\ Student\ are\ less\ than\ 12,\ \r\n\ multiply\ credits\ by\ the\ part-time\ tuition\ rate\ and\ double\ the\ result;\r\n\ otherwise\ tuition\ is\ set\ to\ the\ flat\ full-time\ rate\ doubled.\ \ This\ \r\n\ method\ must\ be\ implemented\ because\ class\ NonResident\ implements\ the\ \r\n\ Tuition\ interface\ which\ defines\ the\ abstract\ getTuition()\ method.\r\n\ \r\n\ @return\ The\ student's\ tuition\r\n
+comment5.params=
+comment5.target=java.lang.String\ getCounty()
+comment5.text=\ \r\n\ Returns\ the\ student's\ county\ of\ residence\ as\ a\ String\r\n\ \r\n\ @return\ The\ student's\ county\r\n
+comment6.params=
+comment6.target=java.lang.String\ getState()
+comment6.text=\ \r\n\ Returns\ the\ return\ value\ of\ the\ state\ object's\ getState()\ method\ which\r\n\ is\ the\ student's\ state\ location\ as\ a\ string\r\n\ \r\n\ @return\ The\ student's\ state\r\n
+comment7.params=
+comment7.target=java.lang.String\ getTuitionString()
+comment7.text=\ \r\n\ Returns\ the\ formatted\ semester\ tuition,\ county\ of\ residence\ and\ \r\n\ state\ location\ fields\ with\ labels\ as\ a\ string.\ \ This\ method\ must\ be\ \r\n\ implemented\ because\ class\ SuffolkResident\ extends\ the\ Student\ class\ \r\n\ which\ defines\ abstract\ getTuitionString()\ method.\r\n\ \ \r\n\ @return\ Formatted\ semester\ tuition\ value,\ as\ well\ as\ county\ of\ residence\ \r\n\ \ \ \ \ \ \ \ \ and\ state\ location\ fields\ as\ a\ string\r\n
+numComments=8

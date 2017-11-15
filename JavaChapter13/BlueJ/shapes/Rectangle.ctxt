@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Rectangle()
+comment0.text=\r\n\ Constructor\ passes\ default\ values\ to\ Rectangle(int,\ int,\ int)\r\n\ constructor.\r\n
+comment1.params=point\ length\ width
+comment1.target=Rectangle(int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ sets\ length\ and\ width\ of\ the\ rectangle\ and\ passes\ the\ point\ \r\n\ where\ it\ will\ draw\ to\ the\ Shape\ superclass\ constructor.\r\n\ \r\n\ @param\ point\ the\ point\ where\ the\ shape\ draws\r\n\ @param\ length\ the\ length\ of\ the\ rectangle\r\n\ @param\ width\ the\ width\ of\ the\ rectangle\r\n
+comment2.params=length
+comment2.target=void\ setLength(int)
+comment2.text=\r\n\ Sets\ the\ length\ of\ the\ rectangle\ which\ must\ be\ greater\ than\ zero\ (0)\ \r\n\ or\ equal\ to\ zero\ if\ null\ (default).\r\n\ \r\n\ @param\ length\ the\ radius\ of\ the\ rectangle\r\n
+comment3.params=width
+comment3.target=void\ setWidth(int)
+comment3.text=\r\n\ Sets\ the\ width\ of\ the\ rectangle\ which\ must\ be\ greater\ than\ zero\ (0)\ \r\n\ or\ equal\ to\ zero\ if\ null\ (default).\r\n\ \r\n\ @param\ width\ the\ radius\ of\ the\ rectangle\r\n
+comment4.params=
+comment4.target=int\ getLength()
+comment4.text=\r\n\ Returns\ the\ length\ of\ the\ rectangle.\r\n\ \r\n\ @return\ the\ length\ of\ the\ rectangle.\r\n
+comment5.params=
+comment5.target=int\ getWidth()
+comment5.text=\r\n\ Returns\ the\ width\ of\ the\ rectangle.\r\n\ \r\n\ @return\ the\ width\ of\ the\ rectangle.\r\n
+comment6.params=
+comment6.target=void\ draw()
+comment6.text=\r\n\ Prints\ the\ length\ and\ width\ of\ the\ rectangle\ to\ the\ terminal\ window.\r\n
+numComments=7

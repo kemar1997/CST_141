@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SeniorCitizen()
+comment0.text=\ \r\n\ Constructor\ sets\ default\ values\ for\ student\ first\ and\ last\ name\ fields.\r\n
+comment1.params=firstName\ lastName
+comment1.target=SeniorCitizen(java.lang.String,\ java.lang.String)
+comment1.text=\ \r\n\ Explicit\ call\ to\ superclass\ Student\ constructor\ sets\ initial\ values\ for\ \r\n\ the\ student\ first\ name,\ last\ name,\ grade\ and\ credits\ fields.\ \ Grade\ for\ \r\n\ senior\ citizens\ always\ is\ set\ to\ an\ empty\ string\ and\ grade\ always\ is\ set\ \r\n\ to\ zero(0)\ since\ seniors\ pay\ no\ tuition\ and\ receive\ no\ college\ credit.\ \ \r\n\ \r\n\ @param\ firstName\ the\ student's\ first\ name\r\n\ @param\ lastName\ the\ student's\ last\ name\r\n
+comment2.params=
+comment2.target=int\ getTuition()
+comment2.text=\ \r\n\ Returns\ the\ student's\ semester\ tuition\ field\ as\ an\ int\ value.\ \ The\ \r\n\ value\ returned\ always\ is\ zero\ (0)\ since\ senior\ citizens\ pay\ no\ tuition.\r\n\ This\ method\ must\ be\ implemented\ because\ class\ SeniorCitizen\ implements\ \r\n\ the\ Tuition\ interface\ which\ defines\ the\ abstract\ getTuition()\ method.\r\n\ \ \r\n\ @return\ The\ student's\ tuition\r\n
+comment3.params=
+comment3.target=java.lang.String\ getTuitionString()
+comment3.text=\ \r\n\ Returns\ the\ formatted\ semester\ tuition\ field\ with\ a\ label\ as\ a\ string.\r\n\ This\ method\ must\ be\ implemented\ because\ class\ SeniorCitizen\ extends\r\n\ the\ Student\ class\ which\ defines\ abstract\ getTuitionString()\ method.\r\n\ \r\n\ @return\ formatted\ tuition\ field\ with\ label\ as\ a\ String.\r\n
+numComments=4

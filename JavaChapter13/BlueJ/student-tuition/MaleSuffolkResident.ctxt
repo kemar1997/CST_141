@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=firstName\ lastName\ grade\ credits
+comment0.target=MaleSuffolkResident(java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+numComments=1
