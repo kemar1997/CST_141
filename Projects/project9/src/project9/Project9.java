@@ -17,8 +17,15 @@ import javafx.scene.text.Text;
 import javax.swing.JOptionPane;
 
 /**
+ * A guessing game that picks a number from 1 to 1000
+ * and stores that number then the user must guess that
+ * number while having a label know if the user is too
+ * high or too low from that chosen number and once they
+ * get the number correct they have the option to restart
+ * the game if they choose to do so.
  *
  * @author Kemar Golding & Erik Zagarello & Peter Kaligeris
+ * @version 11/27/17
  */
 public class Project9 extends Application {
     
