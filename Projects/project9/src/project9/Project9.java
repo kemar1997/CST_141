@@ -1,5 +1,6 @@
 package project9;
 
+import java.io.File;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.scene.Scene;
@@ -7,7 +8,9 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 import java.util.Random;
+import javafx.application.Platform;
 import javafx.geometry.Insets;
+import javafx.geometry.Pos;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.paint.Color;
@@ -91,6 +94,13 @@ public class Project9 extends Application {
         });
         
         /**
+         * Adding a button to quit the game
+         */
+        Button quitBtn = new Button("Quit");
+        quitBtn.setOnAction(e -> Platform.exit());
+        quitBtn.getStyleClass().add("button");
+        
+        /**
          * Creating a Label that shows if the user was correct or was too high
          * or too low from whatever they guessed
          */
@@ -99,27 +109,30 @@ public class Project9 extends Application {
         /**
          * Creating text for the application
          */
-        Text t = new Text(20, 50, "Guessing Game");
-        t.setFont( Font.font("Comic Sans MS", FontWeight.BOLD, 24) );
-        t.setFill(Color.CORAL);
+        Text t = new Text(20, 50, "Guessing Number Game");
+        t.getStyleClass().add("t");
         
         /**
          * Start of StackPane
          */
         StackPane root = new StackPane();
         root.setStyle("-fx-background-color: darkgrey;");
+        StackPane.setAlignment(quitBtn, Pos.CENTER);
+        StackPane.setMargin(quitBtn, new Insets(0, 0, -145, 0));
         StackPane.setMargin(t, new Insets(0, 0, 190, 0));
         StackPane.setMargin(guessResult, new Insets(0, 0, -69, 0));
         StackPane.setMargin(guessNumber, new Insets(8, 8, 130, 8));
-        StackPane.setMargin(btn1, new Insets(8, 145, 50, 8));
+        StackPane.setMargin(btn1, new Insets(8, 147, 50, 8));
         StackPane.setMargin(btn2, new Insets(8, 8, 50, 145));
-        root.getChildren().addAll(btn1, btn2, guessNumber, guessResult, t);
+        root.getChildren().addAll(btn1, btn2, guessNumber, guessResult, t, 
+                quitBtn);
         /**
          * End of StackPane
          */
         
         // Creation of the scene with a specific width and height
         Scene scene = new Scene(root, 300, 250);
+        scene.getStylesheets().add(getClass().getResource("stylesheet.css").toString());
         
         primaryStage.setTitle("Guess a number game");
         primaryStage.setResizable(false);
