@@ -128,7 +128,8 @@ public class Project9 extends Application {
         
         // Creation of the scene with a specific width and height
         Scene scene = new Scene(root, 300, 250);
-        scene.getStylesheets().add(getClass().getResource("stylesheet.css").toString());
+        scene.getStylesheets().add(getClass().getResource("stylesheet.css")
+                .toString());
         
         primaryStage.setTitle("Guess a number game");
         primaryStage.setResizable(false);
