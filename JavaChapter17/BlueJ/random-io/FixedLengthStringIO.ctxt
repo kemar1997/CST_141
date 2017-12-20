@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=size\ inFile
+comment0.target=java.lang.String\ readFixedLengthString(int,\ java.io.DataInput)
+comment0.text=\r\n\ Reads\ and\ returns\ a\ string\ of\ fixed-length\ size\ from\ a\r\n\ RandomAccessFile\ object.\r\n\ \r\n\ @param\ size\ an\ int\ which\ is\ the\ number\ of\ characters\ to\ read\r\n\ @param\ infile\ the\ RandomAccess\ file\ object\ which\ is\ assigned\ \r\n\ \ \ \ \ \ \ \ to\ the\ DataInput\ object\r\n\ \r\n\ @return\ The\ string\ of\ characters\ which\ was\ read\ from\ the\ \r\n\ \ \ \ \ \ \ \ \ RandomAccessFile\r\n\ \r\n\ @throws\ IOException\r\n
+comment1.params=outString\ size\ outFile
+comment1.target=void\ writeFixedLengthString(java.lang.String,\ int,\ java.io.DataOutput)
+comment1.text=\r\n\ Writes\ a\ string\ of\ fixed-length\ size\ to\ a\ RandomAccessFile\ object.\r\n\ \r\n\ @param\ outString\ the\ string\ to\ be\ written\ to\ the\ RandomAccessFile\ object\r\n\ @param\ size\ an\ int\ which\ is\ the\ number\ of\ characters\ to\ be\ written\r\n\ @param\ outfile\ the\ RandomAccess\ file\ object\ which\ is\ assigned\ \r\n\ \ \ \ \ \ \ \ to\ the\ DataOutput\ object\r\n\ \r\n\ @throws\ IOException\r\n
+numComments=2

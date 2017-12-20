@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ start()
+comment0.text=\r\n\ Assigns\ random\ values\ to\ each\ element\ of\ the\ int\ array,\ displays\ the\ array\ \r\n\ of\ values,\ sorts\ the\ array\ (calls\ the\ merge\ sort)\ and\ displays\ the\ array\ again.\r\n
+comment1.params=left\ right
+comment1.target=void\ mergeSort(int,\ int)
+comment1.text=\r\n\ If\ the\ sub-array\ is\ equal\ to\ or\ more\ than\ one\ element,\ split\ the\ array\ into\r\n\ two\ and\ call\ the\ recursive\ mergeSort(int,\ int)\ method.\ \ Stop\ when\ the\ base\ case\r\n\ is\ reached,\ e.g.\ an\ array\ of\ one\ (1)\ item\ to\ be\ sorted.\ \ Then\ begin\ calling\ the\r\n\ merge(int,\ int,\ int)\ method\ to\ merge\ the\ sorted\ sub-arrays.\r\n\r\n\ @param\ left\ the\ index\ of\ the\ left-most\ element\ in\ the\ array\ or\ sub-array\r\n\ @param\ right\ the\ index\ of\ the\ right-most\ element\ in\ the\ array\ or\ sub-array\r\n
+comment2.params=left\ middle\ right
+comment2.target=void\ merge(int,\ int,\ int)
+comment2.text=\r\n\ Merge\ the\ two\ sub-arrays\ into\ a\ single\ sorted\ array.\ \ The\ left\ and\ right\ lists\r\n\ are\ merged\ in\ ascending\ sequence.\ \ When\ either\ the\ left\ or\ right\ list\ is\ completed,\r\n\ finish\ the\ process\ by\ copying\ the\ rest\ of\ the\ other\ list\ to\ the\ merged\ array.\r\n\ At\ the\ end\ copy\ the\ temp\ list\ to\ the\ permanent\ array.\r\n\r\n\ @param\ left\ the\ index\ of\ the\ left-most\ element\ in\ the\ left\ array\ or\ sub-array\r\n\ @param\ middle\ the\ index\ of\ the\ right-most\ element\ in\ the\ left\ array\ or\ sub-array\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ (the\ index\ of\ the\ left-most\ element\ in\ the\ right\ array\ or\ sub-array\ is\ middle\ +\ 1)\r\n\ @param\ right\ the\ index\ of\ the\ right-most\ element\ in\ the\ right\ array\ or\ sub-array\r\n
+comment3.params=
+comment3.target=void\ showAll()
+comment3.text=\r\n\ Prints\ the\ list\ of\ integer\ items\ in\ the\ array\ to\ the\ console.\r\n
+numComments=4

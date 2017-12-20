@@ -1,0 +1,44 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files (x86)\BlueJ\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+C:\Program Files (x86)\BlueJ\lib\bluejcore.jar;C:\Program Files (x86)\BlueJ\lib\junit-4.8.2.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-core.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-device.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-gpio-extension.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-service.jar;E:\CST_141\JavaChapter17\BlueJ\random-io
+-d
+E:\CST_141\JavaChapter17\BlueJ\random-io\doc
+-encoding
+windows-1252
+-charset
+windows-1252
+-docletpath
+C:\Program Files (x86)\BlueJ\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+E:\CST_141\JavaChapter17\BlueJ\random-io\FixedLengthStringIO.java
+<---- end of javadoc command ---->
+Loading source file E:\CST_141\JavaChapter17\BlueJ\random-io\FixedLengthStringIO.java...
+Constructing Javadoc information...
+Standard Doclet version 1.8.0_40
+Building tree for all the packages and classes...
+Generating E:\CST_141\JavaChapter17\BlueJ\random-io\doc\FixedLengthStringIO.html...
+E:\CST_141\JavaChapter17\BlueJ\random-io\FixedLengthStringIO.java:26: warning - @param argument "infile" is not a parameter name.
+E:\CST_141\JavaChapter17\BlueJ\random-io\FixedLengthStringIO.java:49: warning - @param argument "outfile" is not a parameter name.
+Generating E:\CST_141\JavaChapter17\BlueJ\random-io\doc\package-frame.html...
+Generating E:\CST_141\JavaChapter17\BlueJ\random-io\doc\package-summary.html...
+Generating E:\CST_141\JavaChapter17\BlueJ\random-io\doc\constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating E:\CST_141\JavaChapter17\BlueJ\random-io\doc\allclasses-frame.html...
+Generating E:\CST_141\JavaChapter17\BlueJ\random-io\doc\allclasses-noframe.html...
+Generating E:\CST_141\JavaChapter17\BlueJ\random-io\doc\index.html...
+Generating E:\CST_141\JavaChapter17\BlueJ\random-io\doc\stylesheet.css...
+2 warnings

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ start()
+comment0.text=\r\n\ Gets\ an\ integer\ from\ the\ console,\ passes\ it\ to\ method\ factorial()\r\n\ and\ displays\ the\ resulting\ factorial\ to\ the\ console.\r\n\r\n\ @throws\ InputMismatchException\ if\ user\ enters\ non-integer\ input\r\n
+comment1.params=n
+comment1.target=int\ factorial(int)
+comment1.text=\r\n\ A\ recursive\ method\ which\ calculates\ and\ returns\ the\ factorial\ of\r\n\ a\ positive\ integer\ or\ zero\ (0).\r\n\r\n\ @param\ n\ an\ integer\ whose\ factorial\ is\ to\ be\ calculated\r\n\ @return\ The\ factorial\ of\ the\ input\ integer\r\n\ @throws\ Exception\ thrown\ if\ integer\ parameter\ is\ a\ negative\ value\r\n
+numComments=2

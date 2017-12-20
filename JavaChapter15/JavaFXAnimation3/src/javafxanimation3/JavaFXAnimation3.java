@@ -33,10 +33,10 @@ public class JavaFXAnimation3 extends Application
         pane.getChildren().add(imageView);
 
         PathTransition path = new PathTransition();
-        path.setDuration( Duration.millis(10000) );
+        path.setDuration( Duration.millis(1000) );
         path.setPath( new Line(150, 450, 150, -50) );
         path.setNode(imageView);
-        path.setCycleCount(5);
+        path.setCycleCount(90);
         path.play();
 
         Scene scene = new Scene(pane, 300, 400);

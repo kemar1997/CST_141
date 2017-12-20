@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ start()
+comment0.text=\r\n\ Gets\ an\ integer\ from\ the\ console,\ passes\ it\ to\ method\ fibonacci()\ and\r\n\ displays\ the\ resulting\ Fibonacci\ series\ value\ to\ the\ terminal\ window.\r\n\r\n\ @throws\ InputMismatchException\ if\ user\ enters\ non-integer\ input\r\n\ @throws\ Exception\ if\ input\ <code>int</code>\ is\ negative\ or\ greater\ than\ 40\r\n
+comment1.params=n
+comment1.target=int\ fibonacci(int)
+comment1.text=\r\n\ A\ recursive\ method\ which\ calculates\ and\ returns\ a\ value\ in\ the\ Fibonacci\ series\ for\r\n\ a\ positive\ integer\ or\ zero\ (0).\r\n\r\n\ @param\ n\ an\ int\ whose\ Fibonacci\ Series\ value\ is\ to\ be\ calculated\r\n\ @return\ the\ Fibonacci\ Series\ value\ of\ the\ input\ integer\r\n\ @throws\ Exception\ thrown\ if\ the\ exponent\ parameter\ is\ a\ negative\ number\r\n
+numComments=2

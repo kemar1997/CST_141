@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ output()
+comment0.text=\r\n\ Writes\ output\ student\ credits\ data\ to\ a\ binary\ FileOutputStream\ file.\r\n\r\n\ @throws\ IOException\ for\ any\ file\ operation\ failure\ related\ to\ the\ 'temp.dat'\ file\r\n\ @throws\ InputMismatchException\ if\ user\ enters\ non-integer\ input\ for\ 'credits'\r\n\ @throws\ Exception\ when\ any\ unexpected\ exception\ occurs\r\n
+comment1.params=
+comment1.target=void\ input()
+comment1.text=\r\n\ Reads\ input\ student\ credits\ data\ from\ a\ binary\ FileInputStream\ file\ and\r\n\ write\ them\ to\ the\ terminal\ window.\r\n\r\n\ @throws\ IOException\ for\ any\ file\ operation\ related\ to\ the\ 'temp.dat'\ file\r\n\ @throws\ Exception\ when\ any\ unexpected\ exception\ occurs\r\n
+numComments=2

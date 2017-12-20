@@ -87,7 +87,7 @@ public class JavaFXAnimation2 extends Application
         }
     }
 
-    public class StickMan extends Pane
+    public final class StickMan extends Pane
     {
         private final Circle head;
         private final Line body;

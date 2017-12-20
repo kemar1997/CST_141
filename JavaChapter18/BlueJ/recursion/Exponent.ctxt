@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ start()
+comment0.text=\r\n\ Gets\ an\ integer\ for\ base\ and\ exponent\ from\ the\ console,\ passes\ them\ to\ \r\n\ method\ power()\ and\ displays\ the\ resulting\ power\ of\ the\ base\ to\ a\r\n\ showMessageDialog().\r\n\ \r\n\ @throws\ NumberFormatException\ if\ user\ enters\ non-integer\ input\ for\ 'exponent'\r\n
+comment1.params=base\ exponent
+comment1.target=int\ power(int,\ int)
+comment1.text=\r\n\ A\ recursive\ method\ that\ calculates\ and\ returns\ an\ integer\ (base)\ raised\ to\ a\ \r\n\ given\ power\ (exponent).\r\n\r\n\ @param\ base\ the\ number\ to\ be\ raised\ to\ the\ power\ of\ the\ exponent\ parameter\r\n\ @param\ exponent\ the\ power\ to\ which\ the\ base\ number\ will\ be\ raised\r\n\ @return\ the\ result\ of\ raising\ the\ base\ number\ parameter\ to\ the\ power\ of\ the\ exponent\ parameter\r\n\ @throws\ Exception\ thrown\ if\ the\ exponent\ parameter\ is\ a\ negative\ number\r\n
+numComments=2

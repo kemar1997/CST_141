@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ output()
+comment0.text=\r\n\ Writes\ student\ name,\ grade\ and\ credits\ data\ to\ a\ RandomAccessFile\ with\r\n\ fixed-length\ String\ and\ int\ variables.\r\n\r\n\ @throws\ IOException\r\n\ @throws\ InputMismatchException\r\n\ @throws\ Exception\r\n
+comment1.params=
+comment1.target=void\ input()
+comment1.text=\r\n\ Reads\ student\ name,\ grade\ and\ credits\ data\ from\ a\ RandomAccessFile\r\n\ with\ fixed-length\ String\ and\ int\ variables,\ and\ prints\ the\ data\ to\r\n\ the\ terminal\ window.\r\n\r\n\ @throws\ EOFException\r\n\ @throws\ IOException\r\n\ @throws\ InputMismatchException\r\n\ @throws\ Exception\r\n
+numComments=2

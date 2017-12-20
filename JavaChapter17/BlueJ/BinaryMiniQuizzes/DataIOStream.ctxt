@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ output()
+comment0.text=\r\n\ Writes\ a\ product\ file\ to\ disk.\ \r\n
+comment1.params=
+comment1.target=void\ input()
+comment1.text=\r\n\ Reads\ a\ product\ file\ from\ disk\ and\ displays\ contents\ in\ an\ output\ dialog.\r\n
+numComments=2
